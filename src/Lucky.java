@@ -111,7 +111,7 @@ public class Lucky {
 						for(int k=0;k<j;k++){
 							if(luckyNum[k]==luckyNum[j]){
 							luckyNum[j] = (int) (10*Math.random());
-							k = 0;
+							k = -1;
 							}
 						}
 						System.out.print(luckyNum[j]+"\t");				
