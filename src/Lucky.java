@@ -1,4 +1,4 @@
-
+//hhh
 import java.util.Scanner;
 
 public class Lucky {
